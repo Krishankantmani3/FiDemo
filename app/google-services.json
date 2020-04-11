@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "81773454983",
+    "firebase_url": "https://fidemo-2ab75.firebaseio.com",
+    "project_id": "fidemo-2ab75",
+    "storage_bucket": "fidemo-2ab75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81773454983:android:8795dd800e3a581e",
+        "android_client_info": {
+          "package_name": "com.kk.dell.fidemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81773454983-03rqrjdko7s8a0uvc6s72dofvljhsgh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kk.dell.fidemo",
+            "certificate_hash": "9fb1d38aebd857982739f875491e20caa7270beb"
+          }
+        },
+        {
+          "client_id": "81773454983-37grh6ua5c7rttat2o0u98sg8igp83eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDki-7PiWBsgFeK1r4Xo4libswr8jvOmlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81773454983-37grh6ua5c7rttat2o0u98sg8igp83eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewUser">
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Enter your Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editCnfPassword"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="163dp"
+        android:ems="10"
+        android:hint="Confirm your password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="236dp"
+        android:ems="10"
+        android:hint="Enter your Email Id"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="201dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="190dp"
+        android:text="Submit" />
+
+
+</RelativeLayout>
